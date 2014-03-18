@@ -1,0 +1,44 @@
+{
+  "name": "wenke",
+  "version": "1.0.0",
+  "description": "fis of wenwen",
+  "main": "index.js",
+  "bin": {
+    "wenke": "bin/wenke"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/skyaspnet/wenke.git"
+  },
+  "keywords": [
+    "spm",
+    "seajs",
+    "requirejs",
+    "cmd",
+    "commonjs",
+    "modular",
+    "build"
+  ],
+  "scripts": {
+
+  },
+  "author": "mopduan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skyaspnet/wenke/issues"
+  },
+  "homepage": "https://github.com/skyaspnet/wenke",
+  "dependencies": {
+    "grunt-cmd-transport": "~0.4.1",
+    "grunt-cmd-concat": "~0.2.7",
+    "grunt-contrib-uglify": "~0.3.2",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-contrib-cssmin": "~0.6.2",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-md5": "~0.1.10",
+    "spm-grunt": "~0.1.7",
+    "commander": "~2.1.0",
+    "mcheerio": "~0.13.1",
+    "spm": "~2.2.5"
+  }
+}

@@ -48,7 +48,7 @@ exports = module.exports = function(options) {
 	}
 
 
-	global.static_map_function = options.staticMapFunction || '$StaticUrl.getUrl';
+	global.static_map_function = typeof options.staticMapFunction == 'string' ? options.staticMapFunction :  '$StaticUrl.getUrl';
 
 	global.md5 = hasArgv(process.argv, '-m') ? true : false;
 
@@ -63,23 +63,23 @@ exports = module.exports = function(options) {
 		global.static_map = [];
 	}
 
-	global.debug_domain = options.debugDomain || '${wenwenPage.getStaticFilesPathPrefix()}';
+	global.debug_domain = typeof options.debugDomain == 'string' ? options.debugDomain : '${wenwenPage.getStaticFilesPathPrefix()}';
 
-	global.deploy_domain = options.deployDomain || 'http://127.0.0.1:8022';
+	global.deploy_domain = typeof options.deployDomain == 'string' ? options.deployDomain : 'http://127.0.0.1:8022';
 
-	global.static_src_prefix = options.staticSrcPrefix || '/src/';
+	global.static_src_prefix = typeof options.staticSrcPrefix == 'string' ? options.staticSrcPrefix : '/src/';
 
-	global.static_deploy_prefix = options.staticDeployPrefix || '/deploy/';
+	global.static_deploy_prefix = typeof options.staticDeployPrefix == 'string' ? options.staticDeployPrefix :  '/deploy/';
 
-	global.tpl_src_prefix = options.tplSrcPrefix || '/src/';
+	global.tpl_src_prefix = typeof options.tplSrcPrefix == 'string' ? options.tplSrcPrefix : '/src/';
 
-	global.tpl_deploy_prefix = options.tplDeployPrefix || '/deploy/';
+	global.tpl_deploy_prefix = typeof options.tplDeployPrefix == 'string' ? options.tplDeployPrefix : '/deploy/';
 
-	global.version_tag = options.versionTag || '${wenwenPage.getVersionPath()}';
+	global.version_tag = typeof options.versionTag == 'string' ? options.versionTag : '${wenwenPage.getVersionPath()}';
 
 	global.spm_directory = options.spmDirectory;
 
-	if (!(options.spmDirectory && fs.existsSync(path.resolve(path.join(global.static_directory, 'src/js', options.spmDirectory))))) {
+	if (!(typeof global.spm_directory == 'string' && fs.existsSync(path.resolve(path.join(global.static_directory, 'src/js', options.spmDirectory))))) {
 		grunt.log.writeln('spm_directory is not exists!');
 		process.exit();
 	}

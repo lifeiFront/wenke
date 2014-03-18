@@ -41,7 +41,7 @@ module.exports = function(grunt) {
 	grunt.registerMultiTask('tplcompile-dist', function() {
 		var list = [];
 
-		list = file.GetAllFilesByFolder(path.join(global.template_directory, 'src'), list, ['.vm','.html']);
+		list = file.getAllFilesByFolder(path.join(global.template_directory, 'src'), list, ['.vm','.html']);
 
 		for (var i = 0; i < list.length; i++) {
 			tpl_compile.CombineJSAndCSS(list[i]);

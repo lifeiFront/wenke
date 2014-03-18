@@ -48,7 +48,7 @@ exports = module.exports = function(options) {
 	}
 
 
-	global.static_map_function = typeof options.staticMapFunction == 'string' ? options.staticMapFunction :  '$StaticUrl.getUrl';
+	global.static_map_function = typeof options.staticMapFunction == 'string' ? options.staticMapFunction : '$StaticUrl.getUrl';
 
 	global.md5 = hasArgv(process.argv, '-m') ? true : false;
 
@@ -69,7 +69,7 @@ exports = module.exports = function(options) {
 
 	global.static_src_prefix = typeof options.staticSrcPrefix == 'string' ? options.staticSrcPrefix : '/src/';
 
-	global.static_deploy_prefix = typeof options.staticDeployPrefix == 'string' ? options.staticDeployPrefix :  '/deploy/';
+	global.static_deploy_prefix = typeof options.staticDeployPrefix == 'string' ? options.staticDeployPrefix : '/deploy/';
 
 	global.tpl_src_prefix = typeof options.tplSrcPrefix == 'string' ? options.tplSrcPrefix : '/src/';
 

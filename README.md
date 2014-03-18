@@ -4,5 +4,5 @@ wenke
 　　
 ##安装
 ```
-npm install -g mdeploy2
+npm install -g wenke
 ```

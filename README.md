@@ -59,9 +59,15 @@ npm install -g wenke
 
 ###--concat-all
 
+##Report an issue
+>欢迎大家将使用wenke中遇到的任何问题提交给我，提问地址：<a href="https://github.com/skyaspnet/wenke/issues" target="_blank">Report an issue</a>
+
+
+##Pull request
+
 
 ##Release History
 
-#License
+##License
 
 wenke 使用 <a href="https://github.com/skyaspnet/wenke/blob/master/LICENSE" target="_blank" title="wenke use MIT license">MIT License</a>

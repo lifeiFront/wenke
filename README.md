@@ -8,9 +8,14 @@
 npm install -g wenke
 ```
 
-##demo for wenke
-> 为wenke写的一个非常简单的demo
+##Demo for wenke
+> 为wenke写的一个非常简单的demo， 请移步：<a href="https://github.com/skyaspnet/wenke-demo.git" target="_blank" title="专为wenke写的简单入门demo">demo for wenke</a>
 
 ##命令行参数说明
 
 ###-s
+
+
+#License
+
+wenke 使用 [MIT License](https://github.com/skyaspnet/wenke/blob/master/LICENSE, "wenke use MIT license")

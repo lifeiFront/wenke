@@ -64,4 +64,4 @@ npm install -g wenke
 
 #License
 
-wenke 使用 [MIT License](https://github.com/skyaspnet/wenke/blob/master/LICENSE, "wenke use MIT license")
+wenke 使用 <a href="https://github.com/skyaspnet/wenke/blob/master/LICENSE" target="_blank" title="wenke use MIT license">MIT License</a>

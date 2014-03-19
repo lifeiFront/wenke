@@ -1,6 +1,7 @@
 #wenke
 
 [![Build Status](https://travis-ci.org/skyaspnet/wenke.png?branch=master)](https://travis-ci.org/skyaspnet/wenke)
+[![dependencies Status](https://david-dm.org/skyaspnet/wenke.png)](https://github.com/skyaspnet/wenke.git)
 
 > 专门为 腾讯问问 & 百科项目定制开发的前端自动化构建工具，wenke为"wenwen and baike"的缩写，有“温可”含义，寓为"温柔可人"，对开发同学和项目友好，配置灵活，**因为简单，所以好用**。
 

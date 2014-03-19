@@ -13,8 +13,37 @@ npm install -g wenke
 
 ##命令行参数说明
 
+
+
 ###-s
 
+###-t
+
+###-m
+
+###--spm-directory
+
+###--debug-domain
+
+###--deploy-domain
+
+###--static-src-prefix
+
+###--static-deploy-prefix
+
+###--tpl-src-prefix
+
+###--tpl-deploy-prefix
+
+###--version-tag
+
+
+###--static-map-path
+
+###--static-map-function
+
+
+###--concat-all
 
 #License
 

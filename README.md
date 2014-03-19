@@ -40,10 +40,14 @@ npm install -g wenke
 
 ###--static-map-path
 
+
 ###--static-map-function
 
 
 ###--concat-all
+
+
+##Release History
 
 #License
 

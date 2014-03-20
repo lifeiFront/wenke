@@ -76,6 +76,14 @@ npm install -g wenke
 
 
 ##Release History
+  
+  Mar. 18 2014 1.0.0版本发布
+  
+  每天都有快速迭代，并且在问问和百科新上线项目中应用
+  
+  Feb. 14 2014 创建工程，完成相关初始化操作
+  
+
 
 ##License
 

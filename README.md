@@ -70,7 +70,8 @@ npm install -g wenke
 >欢迎大家将使用wenke中遇到的任何问题提交给我，提问地址：<a href="https://github.com/skyaspnet/wenke/issues" target="_blank">Report an issue</a>
 
 
-##Pull request
+##Pull Requests
+>如果您发现了代码中的问题，可以 <a href="https://github.com/skyaspnet/wenke/compare/" target="_blank">New pull request</a>
 
 
 ##Release History

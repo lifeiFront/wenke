@@ -34,7 +34,7 @@ exports = module.exports = function(options) {
 	if (options.templateDirectory && typeof options.templateDirectory == 'string') {
 
 		if (fs.existsSync(path.resolve(options.templateDirectory))) {
-			global.template_directory = path.resolve(options.templateDirectory);
+			global.template_directory = path.resolve(options.templateDirectory).replace(/[\\]/ig, '/');
 		} else {
 			grunt.log.writeln('template_directory is not exists!');
 			process.exit();
@@ -53,11 +53,13 @@ exports = module.exports = function(options) {
 	global.md5 = hasArgv(process.argv, '-m') ? true : false;
 
 	if (global.md5) {
-		if (options.staticMapPath && fs.existsSync(path.resolve(options.staticMapPath))) {
-			global.static_map_path = path.resolve(options.staticMapPath);
-		} else {
-			grunt.log.writeln('static_map_path is not exists!');
-			process.exit();
+		if (options.staticMapPath){
+			if(fs.existsSync(path.resolve(path.dirname(options.staticMapPath)))) {
+				global.static_map_path = path.resolve(options.staticMapPath);
+			}else{
+				grunt.log.writeln('static_map_path is not exists!');
+				process.exit();
+			}
 		}
 
 		global.static_map = [];

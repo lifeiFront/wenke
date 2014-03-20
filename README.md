@@ -2,6 +2,7 @@
 
 [![NPM](https://nodei.co/npm/wenke.png)](https://nodei.co/npm/wenke/)
 
+[![NPM version](https://badge.fury.io/js/wenke.png)](http://badge.fury.io/js/wenke)
 [![Build Status](https://travis-ci.org/skyaspnet/wenke.png?branch=master)](https://travis-ci.org/skyaspnet/wenke)
 [![dependencies Status](https://david-dm.org/skyaspnet/wenke.png)](https://github.com/skyaspnet/wenke)
 [![devDependencies Status](https://david-dm.org/skyaspnet/wenke/dev-status.png)](https://github.com/skyaspnet/wenke)

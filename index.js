@@ -79,6 +79,12 @@ exports = module.exports = function(options) {
 
 	global.spm_directory = options.spmDirectory;
 
+	console.log(options.stack)
+
+	if(options.stack){
+		grunt.option('stack', true); 
+	}
+
 	if (!(typeof global.spm_directory == 'string' && fs.existsSync(path.resolve(path.join(global.static_directory, 'src/js', options.spmDirectory))))) {
 		grunt.log.writeln('spm_directory is not exists!');
 		process.exit();

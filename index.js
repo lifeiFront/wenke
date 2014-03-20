@@ -79,8 +79,6 @@ exports = module.exports = function(options) {
 
 	global.spm_directory = options.spmDirectory;
 
-	console.log(options.stack)
-
 	if(options.stack){
 		grunt.option('stack', true); 
 	}

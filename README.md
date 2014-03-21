@@ -8,7 +8,7 @@
 [![devDependencies Status](https://david-dm.org/skyaspnet/wenke/dev-status.png)](https://github.com/skyaspnet/wenke)
 
 
-> wenke 是为腾讯问问 & 百科项目定制开发的前端自动化构建工具，其基于模块化开发思想，wenke为"wenwen and baike"的缩写，有“温可”含义，寓为"温柔可人"，追求*提升项目同学开发效率*，*进一步解耦页面*，模块化开发虽然比较高效好用，但是它的构建有一定的复杂性，wenke基于grunt开发完成了构建功能，*配置灵活*，**因为简单，所以好用**。关于更多模块化的资料，请访问：<a href="http://seajs.org/" target="_blank">Sea.js</a>，延伸阅读：<a href="https://github.com/seajs/seajs/issues/547" target="_blank">前端模块化开发的价值</a>
+> wenke 是为腾讯问问 & 百科项目定制开发的前端自动化构建工具，其基于模块化开发思想，wenke为"wenwen and baike"的缩写，有“温可”含义，寓为"温柔可人"，追求*提升项目同学开发效率*，*进一步解耦页面*，模块化开发虽然比较高效好用，但是它的构建有一定的复杂性，wenke基于grunt开发完成了构建功能，*配置灵活*，**因为简单，所以好用**。关于更多模块化开发的资料，请访问：<a href="http://seajs.org/" target="_blank">Sea.js</a>，延伸阅读：<a href="https://github.com/seajs/seajs/issues/547" target="_blank">前端模块化开发的价值</a>
 
 ##安装
 ```
@@ -132,9 +132,13 @@ seajs模块文件夹名称
 
 
 ##Release History
-+    Mar. 20 2014 1.0.1 版本发布 增加构建出错时，stack信息是否输出的选项
++    Mar. 20 2014 1.0.3 版本发布 更新配置
+
++    Mar. 16 2014 1.0.2 版本发布 分离-m与--static-map-path功能
+
++    Mar. 10 2014 1.0.1 版本发布 增加构建出错时，stack信息是否输出的选项
   
-+    Mar. 18 2014 1.0.0 版本发布
++    Mar. 8 2014 1.0.0 版本发布
   
 +    每天都有快速迭代，并且在问问和百科新上线项目中应用
   

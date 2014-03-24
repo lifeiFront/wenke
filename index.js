@@ -77,8 +77,6 @@ exports = module.exports = function(options) {
 
 	global.tpl_deploy_prefix = typeof options.tplDeployPrefix == 'string' ? options.tplDeployPrefix : '/deploy/';
 
-	global.version_tag = typeof options.versionTag == 'string' ? options.versionTag : '${wenwenPage.getVersionPath()}';
-
 	global.spm_directory = options.spmDirectory;
 
 	if(options.stack){

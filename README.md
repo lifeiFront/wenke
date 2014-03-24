@@ -132,6 +132,8 @@ seajs模块文件夹名称
 
 
 ##Release History
++    Mar. 24 2014 1.0.4 版本发布 删除冗余的--version-tag
+
 +    Mar. 20 2014 1.0.3 版本发布 更新配置
 
 +    Mar. 16 2014 1.0.2 版本发布 分离-m与--static-map-path功能

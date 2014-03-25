@@ -132,6 +132,8 @@ seajs模块文件夹名称
 
 
 ##Release History
++    Mar. 25 2014 1.0.5 版本发布 修改模板文件生成方法$.xml为$.html，增加sea_modules_directory配置
+
 +    Mar. 24 2014 1.0.4 版本发布 删除冗余的--version-tag
 
 +    Mar. 20 2014 1.0.3 版本发布 更新配置

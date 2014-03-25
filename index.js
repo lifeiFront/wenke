@@ -79,6 +79,7 @@ exports = module.exports = function(options) {
 
 	global.spm_directory = options.spmDirectory;
 
+	global.sea_modules_directory = typeof options.seaModulesDirectory == 'string' ? options.seaModulesDirectory.replace(/[\\|\/]/ig, '') : 'sea_modules' ;
 	if(options.stack){
 		grunt.option('stack', true); 
 	}

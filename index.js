@@ -53,10 +53,10 @@ exports = module.exports = function(options) {
 	global.md5 = hasArgv(process.argv, '-m') ? true : false;
 
 	if (global.md5) {
-		if (options.staticMapPath){
-			if(fs.existsSync(path.resolve(path.dirname(options.staticMapPath)))) {
+		if (options.staticMapPath) {
+			if (fs.existsSync(path.resolve(path.dirname(options.staticMapPath)))) {
 				global.static_map_path = path.resolve(options.staticMapPath);
-			}else{
+			} else {
 				grunt.log.writeln('static_map_path is not exists!');
 				process.exit();
 			}
@@ -79,9 +79,9 @@ exports = module.exports = function(options) {
 
 	global.spm_directory = options.spmDirectory;
 
-	global.sea_modules_directory = typeof options.seaModulesDirectory == 'string' ? options.seaModulesDirectory.replace(/[\\|\/]/ig, '') : 'sea_modules' ;
-	if(options.stack){
-		grunt.option('stack', true); 
+	global.sea_modules_directory = typeof options.seaModulesDirectory == 'string' ? options.seaModulesDirectory.replace(/[\\|\/]/ig, '') : 'sea_modules';
+	if (options.stack) {
+		grunt.option('stack', true);
 	}
 
 	if (!(typeof global.spm_directory == 'string' && fs.existsSync(path.resolve(path.join(global.static_directory, 'src/js', options.spmDirectory))))) {
@@ -90,41 +90,37 @@ exports = module.exports = function(options) {
 	}
 
 	grunt.invokeTask('mop-build', options, function(grunt) {
-		try {
-			var config = getConfig(options);
-			grunt.initConfig(config);
-			loadTasks(grunt);
+		var config = getConfig(options);
+		grunt.initConfig(config);
+		loadTasks(grunt);
 
-			//根据-m参数判断md5任务的处理方式
-			var taskList = [
-				'clean:static_dist',
-				'csscombo-dist',
-				'transport:spm', // src/* -> .build/src/*
-				'concat:relative' // .build/src/* -> .build/dist/*.js
-			];
+		//根据-m参数判断md5任务的处理方式
+		var taskList = [
+			'clean:static_dist',
+			'csscombo-dist',
+			'transport:spm', // src/* -> .build/src/*
+			'concat:relative' // .build/src/* -> .build/dist/*.js
+		];
 
-			if (hasArgv(process.argv, '--concat-all')) {
-				taskList.push('concat:all'); //all
-			}
-
-			taskList.push(
-				'uglify:js', // .build/dist/*.js -> .build/dist/*.js
-				'md5:js', // .build/dist/*.js -> dist/*-md5.js
-				'spm-newline',
-				'modify-config',
-				'copy:sea_modules',
-				'clean:spm'
-			);
-
-			if (global.template_directory) {
-				taskList.push('clean:view_dist');
-				taskList.push('tplcompile-dist');
-			}
-
-			grunt.registerInitTask('mop-build', taskList);
-		} catch (e) {
-			grunt.log.error(e);
+		if (hasArgv(process.argv, '--concat-all')) {
+			taskList.push('concat:all'); //all
 		}
+
+		taskList.push(
+			'uglify:js', // .build/dist/*.js -> .build/dist/*.js
+			'md5:js', // .build/dist/*.js -> dist/*-md5.js
+			'spm-newline',
+			'modify-config',
+			'copy:sea_modules',
+			'clean:spm'
+		);
+
+		if (global.template_directory) {
+			taskList.push('clean:view_dist');
+			taskList.push('tplcompile-dist');
+		}
+
+		grunt.registerInitTask('mop-build', taskList);
 	});
 }
 

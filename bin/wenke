@@ -19,8 +19,7 @@ program.usage('[dir] [options]')
 	.option('--static-map-path [staic-map-path]', 'staic-map-path')
 	.option('--static-map-function [static-map-function]', 'static-map-function')
 	.option('--concat-all [concat-all]', 'concat-all')
-	.option('--sea-modules-directory [sea-modules-directory]', 'sea-modules-directory')
-	.option('--stack [show-stackinfo]', 'show stack info');
+	.option('--sea-modules-directory [sea-modules-directory]', 'sea-modules-directory');
 
 program.parse(process.argv);
 

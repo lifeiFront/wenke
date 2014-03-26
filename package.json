@@ -1,6 +1,6 @@
 {
   "name": "wenke",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "fis of wenwen",
   "main": "index.js",
   "bin": {
@@ -39,6 +39,7 @@
     "spm-grunt": "~0.1.7",
     "commander": "~2.1.0",
     "mcheerio": "~0.13.1",
-    "spm": "~2.2.5"
+    "spm": "~2.2.5",
+    "clean-css": "~2.1.7"
   }
 }

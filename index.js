@@ -80,6 +80,9 @@ exports = module.exports = function(options) {
 	global.spm_directory = options.spmDirectory;
 
 	global.sea_modules_directory = typeof options.seaModulesDirectory == 'string' ? options.seaModulesDirectory.replace(/[\\|\/]/ig, '') : 'sea_modules';
+
+	global.clean_view_dist = hasArgv(process.argv, '--clean-view-dist') ? true : false;
+
 	if (options.stack) {
 		grunt.option('stack', true);
 	}
@@ -116,7 +119,9 @@ exports = module.exports = function(options) {
 		);
 
 		if (global.template_directory) {
-			taskList.push('clean:view_dist');
+			if (global.clean_view_dist) {
+				taskList.push('clean:view_dist');
+			}
 			taskList.push('tplcompile-dist');
 		}
 

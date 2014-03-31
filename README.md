@@ -129,6 +129,10 @@ seajs模块文件夹名称
 
 
 ##Release History
++    Mar. 31 2014 1.1.1 版本发布 修复mac、*nix下npm发包line endings问题
+
++    Mar. 28 2014 1.1.0 版本发布 增加--clean-view-dist配置
+
 +    Mar. 25 2014 1.0.10 版本发布 增加clean-css依赖，默认抛出构建异常信息，限制bin/wenke换行符为unix风格
 
 +    Mar. 25 2014 1.0.5 版本发布 修改模板文件生成方法$.xml为$.html，增加sea_modules_directory配置

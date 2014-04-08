@@ -1,6 +1,6 @@
 #wenke
 
-[![NPM](https://nodei.co/npm/wenke.png)](https://nodei.co/npm/wenke/)
+[![NPM](https://nodei.co/npm/wenke.png?downloads=true)](https://nodei.co/npm/wenke/)
 
 [![NPM version](https://badge.fury.io/js/wenke.png)](http://badge.fury.io/js/wenke)
 [![Build Status](https://travis-ci.org/skyaspnet/wenke.png?branch=master)](https://travis-ci.org/skyaspnet/wenke)

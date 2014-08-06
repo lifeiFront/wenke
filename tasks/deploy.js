@@ -44,7 +44,7 @@ module.exports = function(grunt) {
 		list = file.getAllFilesByFolder(path.join(global.template_directory, 'src'), list, ['.vm','.html']);
 
 		for (var i = 0; i < list.length; i++) {
-			tpl_compile.CombineJSAndCSS(list[i]);
+			tpl_compile.compile(list[i]);
 		}
 
 

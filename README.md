@@ -3,9 +3,9 @@
 [![NPM](https://nodei.co/npm/wenke.png?downloads=true)](https://nodei.co/npm/wenke/)
 
 [![NPM version](https://badge.fury.io/js/wenke.png)](http://badge.fury.io/js/wenke)
-[![Build Status](https://travis-ci.org/skyaspnet/wenke.png?branch=master)](https://travis-ci.org/skyaspnet/wenke)
-[![dependencies Status](https://david-dm.org/skyaspnet/wenke.png)](https://github.com/skyaspnet/wenke)
-[![devDependencies Status](https://david-dm.org/skyaspnet/wenke/dev-status.png)](https://github.com/skyaspnet/wenke)
+[![Build Status](https://travis-ci.org/mopduan/wenke.png?branch=master)](https://travis-ci.org/mopduan/wenke)
+[![dependencies Status](https://david-dm.org/mopduan/wenke.png)](https://github.com/mopduan/wenke)
+[![devDependencies Status](https://david-dm.org/mopduan/wenke/dev-status.png)](https://github.com/mopduan/wenke)
 
 
 > wenke 是为腾讯问问 & 百科项目定制开发的前端自动化构建工具，其基于模块化开发思想，wenke为"wenwen and baike"的缩写，有“温可”含义，寓为"温柔可人"，追求*提升项目同学开发效率*，*进一步解耦页面*，模块化开发虽然比较高效好用，但是它的构建有一定的复杂性，wenke基于grunt开发完成了构建功能，*配置灵活*，**因为简单，所以好用**。关于更多模块化开发的资料，请访问：<a href="http://seajs.org/" target="_blank">Sea.js</a>，延伸阅读：<a href="https://github.com/seajs/seajs/issues/547" target="_blank">前端模块化开发的价值</a>
@@ -22,7 +22,7 @@ wenke -s 静态资源文件目录
 
 
 ##Demo for wenke
-> 为wenke写的一个非常简单的demo， 请移步：<a href="https://github.com/skyaspnet/wenke-demo.git" target="_blank" title="专为wenke写的简单入门demo">demo for wenke</a>
+> 为wenke写的一个非常简单的demo， 请移步：<a href="https://github.com/mopduan/wenke-demo.git" target="_blank" title="专为wenke写的简单入门demo">demo for wenke</a>
 
 
 ##目录规范说明
@@ -121,11 +121,11 @@ wenke -s 静态资源文件目录
 seajs模块文件夹名称
 
 ##Report an issue
->欢迎大家将使用wenke中遇到的任何问题提交给我，提问地址：<a href="https://github.com/skyaspnet/wenke/issues" target="_blank">Report an issue</a>
+>欢迎大家将使用wenke中遇到的任何问题提交给我，提问地址：<a href="https://github.com/mopduan/wenke/issues" target="_blank">Report an issue</a>
 
 
 ##Pull Requests
->如果您发现了代码中的问题，可以 <a href="https://github.com/skyaspnet/wenke/compare/" target="_blank">New pull request</a>
+>如果您发现了代码中的问题，可以 <a href="https://github.com/mopduan/wenke/compare/" target="_blank">New pull request</a>
 
 
 ##Release History
@@ -155,4 +155,4 @@ seajs模块文件夹名称
 
 ##License
 
-wenke 使用 <a href="https://github.com/skyaspnet/wenke/blob/master/LICENSE" target="_blank" title="wenke use MIT license">MIT License</a>
+wenke 使用 <a href="https://github.com/mopduan/wenke/blob/master/LICENSE" target="_blank" title="wenke use MIT license">MIT License</a>

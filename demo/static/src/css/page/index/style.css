@@ -1,0 +1,11 @@
+@import "../../base/base.css";
+
+#mask {
+    position: absolute;
+    top:0;
+    left:0;
+    opacity:0.5;
+    filter:alpha(opacity=60);
+    z-index:9;
+    background: url('./bg.jpeg');
+}

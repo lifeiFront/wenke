@@ -1,0 +1,17 @@
+<!doctype html>
+
+<html>
+<meta charset="utf-8" />
+
+<head>
+    <title>wenke-demo</title>
+    <link rel="stylesheet" type="text/css" href="${page.getStaticFilesPathPrefix()}/src/css/page/index/style.css" />
+</head>
+
+<body>
+	<a href="javascript:;" id="popup">点我弹浮层</a>
+<script src="${page.getStaticFilesPathPrefix()}/deploy/js/lib/wenke/test.js" babel="true"></script>
+<script src="${page.getStaticFilesPathPrefix()}/deploy/js/project1/channel1/page1/bundle.js" babel="true"></script>
+</body>
+
+</html>

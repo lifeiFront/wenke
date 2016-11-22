@@ -5,7 +5,7 @@
 [![NPM version](https://badge.fury.io/js/wenke.svg)](http://badge.fury.io/js/wenke)
 
 
-> wenke 是为腾讯问问 & 百科项目定制开发的前端自动化构建工具，其基于模块化开发思想，wenke为"wenwen and baike"的缩写，有“温可”含义，寓为"温柔可人"，追求*提升项目同学开发效率*，*进一步解耦页面*，模块化开发虽然比较高效好用，但是它的构建有一定的复杂性，wenke基于grunt开发完成了构建功能，*配置灵活*，**因为简单，所以好用**。关于更多模块化开发的资料，请访问：<a href="http://seajs.org/" target="_blank">Sea.js</a>，延伸阅读：<a href="https://github.com/seajs/seajs/issues/547" target="_blank">前端模块化开发的价值</a>
+> wenke 是为腾讯问问 & 百科项目定制开发的, 基于webpack、Gulp、React、Vue.js、Babel等开源项目的前端自动化构建工具。
 
 
 ##安装

@@ -5,7 +5,7 @@
 [![NPM version](https://badge.fury.io/js/wenke.svg)](http://badge.fury.io/js/wenke)
 
 
-> wenke 是为腾讯问问 & 百科项目定制开发的, 基于webpack、Gulp、React、Vue.js、Babel等开源项目的前端自动化构建工具。
+> wenke 是为搜狗社区搜索部业务线产品定制开发的, 基于webpack、Gulp、React、Vue.js、Babel等开源项目的前端自动化构建工具。
 
 
 ##安装

@@ -7,7 +7,7 @@
 
 > wenke 是为搜狗社区搜索部业务线产品定制开发的, 基于webpack、Gulp、React、Vue.js、Babel等开源项目的前端自动化构建工具。
 
-**特别说明：此为对外版本，主要是介绍wenke解决方案，完整的解决方案介绍请访问: [搜狗社区搜索前端工程化解决方案简介](https://github.com/mopduan/wenke/issues/1)，内部版本功能更为完善**
+**特别说明：此为对外版本，主要是介绍wenke解决方案，完整的解决方案介绍请访问: [搜狗社区搜索前端工程化解决方案简介](https://github.com/mopduan/wenke/issues/1)，内部版本功能更为完善。**
 
 ##安装
 ```
